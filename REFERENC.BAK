@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void change(int *,int *);
+void main()
+{
+	clrscr();
+	int a=50, b=60;
+	change(&a,&b);
+	cout<<"\n the value of a in main="<<a;
+	cout<<"\n the value of b in main="<<b;
+	getch();
+}
+void change(int *x, int *y)
+{
+	*x=50;
+	*y=10;
+	cout<<"\n the value of x in change ="<<*x;
+	cout<<"\n the value of y in change ="<<*y;
+}
