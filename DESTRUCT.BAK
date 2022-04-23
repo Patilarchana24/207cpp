@@ -1,0 +1,56 @@
+//programm to demonstration destructor
+#include<iostream.h>
+#include<conio.h>
+class demo
+{
+  private:
+  public:
+	demo();
+	~demo();
+
+};
+demo::demo()
+{
+cout<<"constructor called";
+}
+demo::~demo()
+{
+cout<<"destructor called";
+}
+main()
+{
+clrscr();
+demo d;
+getch();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
